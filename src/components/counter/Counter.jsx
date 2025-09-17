@@ -13,9 +13,6 @@ export default function Counter() {
     function resetFunction() {
         setCount(0);
     }
-    function someFunctionInParent() {
-        console.log('someFunctionInParent');
-    }
     return (
         <div className="flex flex-col items-center justify-center p-6 bg-white shadow-md rounded-lg w-64 mx-auto">
             <span className="text-4xl font-bold text-gray-800 mb-4">{count}</span>
